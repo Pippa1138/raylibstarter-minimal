@@ -17,7 +17,7 @@ int main() {
     // Your own initialization code here
     // ...
     // ...
-    Texture2D myTexture = LoadTexture("assets/graphics/guaca2.png");
+    Texture2D myTexture = LoadTexture("assets/graphics/guaca3.png");
 
     // Main game loop
     while (!WindowShouldClose()) // Detect window close button or ESC key
@@ -31,7 +31,7 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Hello, Hannes!", 10, 10, 30, LIGHTGRAY);
+            DrawText("Hello, Hannes!", 10, 10, 60, PINK);
             DrawTexture(myTexture, 10, 100, WHITE);
 
         EndDrawing();
