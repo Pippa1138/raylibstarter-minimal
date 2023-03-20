@@ -31,7 +31,7 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Hello there!", 10, 10, 60, PINK);
+            DrawText("Hello there!", 10, 10, 60, BLACK);
             DrawTexture(myTexture, 10, 100, WHITE);
 
         EndDrawing();
